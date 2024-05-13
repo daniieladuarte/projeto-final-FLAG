@@ -1,0 +1,31 @@
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+.card {
+	flex: 0 0 20%;
+	min-width: 0; /* Ensures the cards can shrink if needed */
+	border: 1px solid #ccc;
+	border-radius: 0.2rem;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.img {
+	width: 100%;
+	height: auto;
+    background-color: #ccc;
+}
+
+.content h3,
+h4,
+p {
+	margin: 10px;
+}
+
+.content span {
+	font-weight: var(--font-semi-bold);
+}

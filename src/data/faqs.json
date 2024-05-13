@@ -1,0 +1,32 @@
+[
+	{
+		"id": "1",
+		"question": "What types of services do you offer?",
+		"answer": "We offer a range of services including landscaping, lawn care, plant installation, irrigation system installation, and garden maintenance."
+	},
+	{
+		"id": "2",
+		"question": "How often should I water my plants and lawn?",
+		"answer": "It depends on factors like plant type, weather, and soil conditions. Generally, most plants need watering 1-2 times per week, while lawns may need watering 2-3 times per week during dry periods."
+	},
+	{
+		"id": "3",
+		"question": "What are the best plants for my garden considering the local climate?",
+		"answer": "Native plants that are well-adapted to the local climate are often the best choice. We can recommend a variety of suitable plants based on your specific location and conditions."
+	},
+	{
+		"id": "4",
+		"question": "Do you provide landscaping design services?",
+		"answer": "Yes, we offer landscaping design services to help you create a beautiful and functional outdoor space tailored to your preferences and needs."
+	},
+    {
+        "id": "5",
+        "question": "Can you recommend eco-friendly gardening practices?",
+        "answer": "Absolutely! We promote eco-friendly gardening practices such as water conservation, using organic fertilizers and pesticides, composting, and planting native species to support local biodiversity."
+    },
+    {
+		"id": "6",
+		"question": "Do you offer maintenance packages for ongoing care of my garden?",
+		"answer": "Yes, we offer maintenance packages that include regular visits for tasks such as mowing, weeding, pruning, fertilizing, and seasonal clean-up to keep your garden looking its best throughout the year."
+	}
+]

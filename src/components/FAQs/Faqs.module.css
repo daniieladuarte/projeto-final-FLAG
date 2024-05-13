@@ -1,0 +1,100 @@
+.container {
+	gap: 1.5rem;
+	padding: 1.5rem 0;
+}
+
+.content {
+	overflow: hidden;
+	height: 0;
+}
+
+.description {
+	font-size: var(--smaller-font-size);
+	padding: 0 1.25rem 1.25rem 2.5rem;
+}
+
+.group {
+	display: grid;
+	row-gap: 1.5rem;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	column-gap: 0.5rem;
+	padding: 0.75rem 0.5rem;
+	cursor: pointer;
+}
+
+.icon {
+	font-size: 1.25rem;
+	color: var(--title-color);
+}
+
+.item {
+	background-color: var(--container-color);
+	border-radius: 0.25rem;
+}
+
+.item:hover {
+	box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, 0.15);
+}
+
+.item_title {
+	font-size: var(--small-font-size);
+	font-weight: var(--font-medium);
+}
+
+.questions {
+	background-color: var(--first-color-lighten);
+}
+
+.item,
+.header,
+.item_title,
+.icon,
+.description,
+.content {
+	transition: 0.3s;
+}
+
+/*Rotate icon, change color of titles and background*/
+.accordion_open .header,
+.accordion_open .content {
+	background-color: var(--first-color);
+}
+
+.accordion_open .item_title,
+.accordion_open .description,
+.accordion_open .icon {
+	color: #fff;
+}
+
+.accordion_open .icon {
+	transform: rotate(45deg);
+}
+
+@media screen and (min-width: 767px){
+  .container{
+    grid-template-columns: repeat(2, 1fr);
+	align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .container{
+    padding: 1rem 0 4rem;
+  }
+  .title{
+    text-align: initial;
+  }
+  .group{
+    row-gap: 2rem;
+  }
+  .header{
+    padding: 1rem;
+  }
+  .description{
+    padding: 0 3.5rem 2.25rem 2.75rem;
+  }
+}
